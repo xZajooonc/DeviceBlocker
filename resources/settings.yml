@@ -1,0 +1,18 @@
+# jakie urzadzenie ma zostac zablokowane
+# android - urzadzenie z systemem Android
+# ios - urzadzenie z systemem iOS
+# win - urzadzenie z systemem Windows 10
+block-device: win
+# czynnosc jaka ma sie wykonac po wejsciu takiego urzadzenia
+# kick - wyrzucenie gracza
+# transfer - przenosi gracza na inny serwer
+# gm3 - ustawia tryb gry na obserwatora
+action: kick
+# wiadomosc kicka jaka ma sie pojawic
+kick-message: Sory, twoje urzadzenie jest zablokowane na tym serwerze.
+# adres serwera na jaki ma byc przeniesiony gracz
+transfer-ip: 127.0.0.1
+# port serwera na jaki ma byc przeniesiony gracz
+transfer-port: 19132
+# wiadomosc o zmianie trybu gry
+gamemode-message: Na tym urzadzeniu mozesz tylko obserwowac gre innych
